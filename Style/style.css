@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Poppins:wght@400;500&family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: #aaaaaa;
+}
+
+/* Common style and utilities */
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  height: 80px;
+  align-items: center;
+}
+.navbar-left {
+  font-size: x-large;
+  color: black;
+}
+.navbar-right ul {
+  display: flex;
+  align-items: center;
+}
+.navbar-right li {
+  list-style: none;
+  margin: 20px;
+  font-weight: 600;
+}
+.navbar-right li a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  color: black;
+  font-size: large;
+  gap: 50px;
+}
