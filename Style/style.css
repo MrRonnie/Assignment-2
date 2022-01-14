@@ -43,3 +43,42 @@ body {
   font-size: large;
   gap: 50px;
 }
+
+/*----------- main ----------- */
+
+/*------------------- 
+     upper part  
+-------------------*/
+.upper-part {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.upper-part h1 {
+  font-size: 52px;
+  line-height: 70px;
+}
+.upper-left {
+  text-align: justify;
+  margin-right: 10%;
+  font-weight: 700;
+}
+.button {
+  position: absolute;
+  width: 190px;
+  height: 42px;
+  text-decoration: none;
+  background-color: #e02c6d;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 44px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.button-logo {
+  font-weight: bold;
+  margin-left: 10px;
+}
