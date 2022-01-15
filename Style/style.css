@@ -64,6 +64,7 @@ body {
   text-align: justify;
   margin-right: 10%;
   font-weight: 700;
+  line-height: 1.5em;
 }
 .button {
   position: absolute;
@@ -81,4 +82,35 @@ body {
 .button-logo {
   font-weight: bold;
   margin-left: 10px;
+}
+
+/*--------------------
+    Brands logo  
+-------------------*/
+.brand {
+  margin-top: 65px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.brand-border {
+  border: 2.5px solid rgba(209, 209, 209, 0.322);
+  border-right: none;
+  border-left: none;
+  margin-left: 300px;
+  margin-right: 300px;
+  height: 120px;
+}
+.brand-logo {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-column-gap: 55px;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.brand-logo img {
+  width: 82px;
+  height: 40px;
 }
