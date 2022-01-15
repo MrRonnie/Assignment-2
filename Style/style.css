@@ -10,6 +10,41 @@ html {
 body {
   color: #aaaaaa;
 }
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
 
 /* Common style and utilities */
 .container {
@@ -66,6 +101,17 @@ body {
   font-weight: 700;
   line-height: 1.5em;
 }
+.upper-rigt {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease-out;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+.upper-right:hover {
+  transform: scale(1.2);
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
 .button {
   position: absolute;
   width: 190px;
@@ -81,6 +127,15 @@ body {
 }
 .button-logo {
   font-weight: bold;
+}
+
+.button:hover {
+  box-shadow: 0px 5.34229px 13.3557px #db1e4ab7;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.button .fa-arrow-right {
+  color: white;
   margin-left: 10px;
 }
 
