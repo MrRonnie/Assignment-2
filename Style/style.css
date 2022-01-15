@@ -460,7 +460,9 @@ label input[type="checkbox"] {
     margin-left: 20%;
   }
   .my-section {
+    max-width: 100%;
     align-items: center;
+    margin-left: 12%;
   }
   .my-section img {
     width: 70%;
