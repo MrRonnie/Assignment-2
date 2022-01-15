@@ -403,3 +403,120 @@ label input[type="checkbox"] {
 .social-icon .fab:hover {
   cursor: pointer;
 }
+
+/*----------------------
+   Responsive Css 
+--------------------*/
+
+/*--------------
+ mobile
+ --------------  */
+@media only screen and (max-width: 688px) and (min-width: 0px) {
+  .container {
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-right ul {
+    display: none;
+  }
+  .upper-rigt img {
+    width: 80%;
+  }
+  .upper-part {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+  }
+  .upper-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .upper-left h1 {
+    text-align: center;
+  }
+  .upper-left p {
+    text-align: center;
+  }
+  .button {
+    margin-left: 22%;
+  }
+
+  .brand {
+    display: none;
+  }
+  .collection-title {
+    text-align: center;
+  }
+  .product-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .button-see-more {
+    margin-left: 20%;
+  }
+  .my-section {
+    align-items: center;
+  }
+  .my-section img {
+    width: 70%;
+  }
+}
+/*-----------
+   tab 
+ ---------- */
+
+@media only screen and (max-width: 992px) and (min-width: 689px) {
+  .container {
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-right ul {
+    display: none;
+  }
+  .upper-rigt img {
+    width: 90%;
+  }
+  .upper-part {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+  }
+  .upper-left h1 {
+    text-align: center;
+  }
+  .upper-left p {
+    text-align: center;
+  }
+  .button {
+    margin-left: 18%;
+  }
+  .brand {
+    display: none;
+  }
+  .collection-title {
+    text-align: center;
+  }
+  .product-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .button-see-more {
+    margin-right: 10%;
+  }
+  .my-section {
+    align-items: center;
+  }
+  .my-section img {
+    width: 70%;
+  }
+}
